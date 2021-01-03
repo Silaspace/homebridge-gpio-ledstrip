@@ -23,12 +23,8 @@ export = (api: API) => {
 
 
 // Pigpio 
+//
 
-const Gpio = require('pigpio').Gpio;
-
-const red = new Gpio(23, {mode: Gpio.OUTPUT});
-const green = new Gpio(24, {mode: Gpio.OUTPUT});
-const blue = new Gpio(25, {mode: Gpio.OUTPUT});
 
 function hsvtorgb(h:number, s:number, v:number) {
   let r, g, b, i, f, p, q, t;
@@ -53,12 +49,11 @@ function hsvtorgb(h:number, s:number, v:number) {
 }
 
 function writepwm(h:number, s:number, v:number){
-
   let r, g, b = hsvtorgb(h/360, s/100, v/100);
 
-  red.pwmWrite(r);
-  green.pwmWrite(g);
-  blue.pwmWrite(b);
+  //red.analogWrite(r);
+  //green.analogWrite(g);
+  //blue.analogWrite(b);
 }
 
 

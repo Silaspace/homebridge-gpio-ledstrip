@@ -36,6 +36,7 @@
     "homebridge": "^1.0.4"
   },
   "dependencies": {
-    "pigpio": "^3.2.4"
+    "pigpio": "^3.2.4",
+    "pigpio-client": "^1.5.1"
   }
 }
