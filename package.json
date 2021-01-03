@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-gpio-ledstrip",
+  "name": "homebridge-rpi-ledstrip",
   "description": "Raspberry Pi GPIO based LED Strip plugin for Homebridge",
   "version": "0.0.1",
   "repository": {
