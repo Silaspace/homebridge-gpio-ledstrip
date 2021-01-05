@@ -1,6 +1,6 @@
 {
   "name": "homebridge-rpi-ledstrip",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Homebridge plugin for controlling an RGB LED strip with a Raspberry Pi's GPIO",
   "main": "dist/accessory.js",
   "scripts": {
